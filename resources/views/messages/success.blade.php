@@ -24,7 +24,7 @@
 <section  style="height: 100vh;"   class="page-section bg-primary  text-white mb-0  " >
 <div>
     <h1 style="text-align: center; margin-top: 50px;">¡Mensaje Enviado con Exito!</h1>
-    <p>{{ session('success') }}</p>
+    <!--<p>{{ session('success') }}</p>-->
 </div>
 </section>
 </html>

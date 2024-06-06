@@ -11,7 +11,7 @@ class MessageController extends Controller
     public function create()
     {
         $titulo = "Mensaje"; // Definimos la variable $titulo
-        return view('messages.create');
+        return view('messages.create'.compact('titulo'));
     }
 
     public function store(Request $request)
